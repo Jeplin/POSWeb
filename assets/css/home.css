@@ -1,0 +1,14 @@
+.mainContainer{
+    margin-top: 70px;
+    /* border: 1px solid black; */
+    position: relative;
+    display: block;
+}
+
+.container{
+    margin: 0;
+    width: 100%;
+    float: left;
+    /* border:1px solid blue; */
+    padding: 10px 0;
+}

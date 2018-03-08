@@ -5,10 +5,10 @@
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="../assets/css/bootstrap.css">
-	<script src="../assets/js/jquery.min.js"></script>
-	<link rel="stylesheet" href="../assets/css/main.css">
-	<link rel="stylesheet" href="../assets/css/login.css">
+	<link rel="stylesheet" href="../../assets/css/bootstrap.css">
+	<script src="../../assets/js/jquery.min.js"></script>
+	<link rel="stylesheet" href="../../assets/css/main.css">
+	<link rel="stylesheet" href="../../assets/css/login.css">
 </head>
 <body >
 	<div id="main_login">
@@ -16,7 +16,7 @@
 			<div class="col-md-2">
 			</div>
 			<div class="col-md-4 cmptr">
-				<img src="../assets/img/b.png" class="pull-left" caption="d">
+				<img src="../../assets/img/b.png" class="pull-left" caption="d">
 				<div class="panel pull-right pnldef lft">
 					<sm>a</sm>
 					<sm>d</sm>						
@@ -124,6 +124,6 @@
 			</div>
 		</div>
 	</div>
-	<script src="../assets/js/bootstrap.js"></script>
+	<script src="../../assets/js/bootstrap.js"></script>
 </body>
 </html>

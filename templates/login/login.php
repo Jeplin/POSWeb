@@ -1,7 +1,7 @@
 <?php
 	session_start(); // Starting Session
 
-							include('../connection.php');
+							include('../../connection.php');
 						$connection = new createConnection(); 			//created a new object
 						$connection_ref = $connection->connectToDatabase();
 						// $connection->selectDatabase();
@@ -24,7 +24,7 @@
 			$password=$_POST['password'];
 
 			$_SESSION['login_user']=$username; // Initializing Session
-			header("Location: ../");
+			header("Location: ../../");
 			
 			// Establishing Connection with Server by passing server_name, user_id and password as a parameter
 			
