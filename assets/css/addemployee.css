@@ -1,0 +1,15 @@
+#mainOuterDiv{
+    /* order:1px solid black; */
+}
+#headerAddEmployee{
+    border-bottom: 2px solid gray;
+    font-weight: bold;
+}
+#headerAddEmployee span{
+    padding: 5px;
+    font-size: 130%;
+}
+.formCss{
+    border:1px solid black;
+    margin: 10px 0;
+}

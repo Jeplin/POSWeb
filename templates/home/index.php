@@ -10,7 +10,7 @@
   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
    	<title>i ADMIN</title>
 	<meta name="robots" content="noindex, nofollow">
-   	<meta name="author" content="lakshmaji"/>
+   	<meta name="author" content="jeplin"/>
    	<!-- <link rel="publisher" href="http://lakshmaji.tk"> -->
 
   	<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -24,7 +24,7 @@
 	
 
 	<style>
-		html,body{width:100%;height:100%;}
+		html,body{width:100%;height:100%;overflow}
                 .fix_nav{margin-top:10%;}
 		.win_by_lakshmaji{padding:3em 0em;text-align: center;margin:1.5em 1em;text-shadow:5px 5px 10px black;font-size:18px;}
 		.wrapper{line-height:12;}
@@ -45,12 +45,12 @@
           		<span class="glyphicon glyphicon-leaf" style="font-size:2.5em"></span>
       		</a>
 		<a class="navbar-brand" href="#">
-          		<span><i style="font-size:8px;letter-spacing:5px">@My App</i><br> i ADMINSTRATOR</span>
+          		<span><i style="font-size:8px;letter-spacing:5px">@My App</i><br> ADMINSTRATOR</span>
       		</a>
  	</div>
     	<div class="collapse navbar-collapse" id="myNavbar">
 	      	<ul class="nav navbar-nav navbar-right">
-        		<li ><p style="margin-top:10%;">ADMINSTARTOR<br><i style="font-size:8px;letter-spacing:5px">lakshmaji inno's</i></p></li>
+        		<li ><p style="margin-top:10%;">ADMINSTARTOR<br><i style="font-size:8px;letter-spacing:5px">Logout</i></p></li>
         		<li><a href="../login/logout.php"><span class="glyphicon glyphicon-off" style="font-size:2.5em"></span></a></li>
       		</ul>
     	</div>
@@ -61,8 +61,9 @@
 		<?php 
 		include('../sidenav/sidenav.php'); ?>
 		<div class="col-sm-9 col-md-10 affix-content">
-			<div class="container">
+			<div class="container" >
 				<?php 
+					//echo isset($_GET[]);
 					if(isset($_GET['floor'])){
 						include("../floor/index.php");
 					}
@@ -73,6 +74,11 @@
 					else if(isset($_GET['employee'])){
 						//echo "Employee";
 						include("../employee/index.php");
+					}
+					else if(isset($_GET['addemployee'])){
+						//echo "qadd";
+						include("../addemployee/index.php");
+						// header("location:?addemployee");
 					}
 					else{
 						header("location:?floor");

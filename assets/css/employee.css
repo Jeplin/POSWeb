@@ -1,0 +1,25 @@
+
+#headerEmployee{
+    padding: 5px;
+    border-bottom: 2px solid pink;
+    font-weight: bold;
+    font-size: 110%;
+}
+#headerEmployee a{
+    float: right;
+}
+.employeeListItem{
+
+    /* border:1px solid black; */
+
+    padding:8px;margin:4px 0;
+    
+    background:#f2f2f2;
+}
+.employeeListItem a{
+    /* border:1px solid green; */
+    padding: 8px;
+}
+/* #employeeList a{
+    padding: 10px;
+} */
