@@ -13,124 +13,61 @@
 <body>
     <div id="mainOuterDiv">
         <div id="headerAddEmployee">
-            <span>Add</span>
+            <span>New Employee</span>
         </div>
         <form action="add.php" method="POST">
 			<div class="formCss">
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="text" id="name" name="username" placeholder="username" class="form-control"  value="admin">
-						</div>
-						<br>
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="password" id="password" name="password" placeholder="**********" class="form-control" value="admin" >
-						</div><br>
-						
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="text" id="name" name="username" placeholder="username" class="form-control"  value="admin">
-						</div>
-						<br>
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="password" id="password" name="password" placeholder="**********" class="form-control" value="admin" >
-						</div><br>
+				<div class="formContainer">
+					<span>Employee Info (*)</span>
+					<div class="field">
+						<span>Employee Type</span>
+						<select>
+  							<option value="admin">Administrator</option>
+							<option value="manager">Manager</option>
+							<option value="waiter">Waiter</option>
+						</select>
+					</div>
+					<div class="field">
+						<span>First Name</span>
+						<input type="text" name="firstName" placeholder="First Name">
+						<span>Last Name</span>
+						<input type="text" name="lastName" placeholder="Last Name">
+					
+					</div>
+					<div class="field">
+						<!-- <span>Last Name</span>
+						<input type="text" name="lastName" placeholder="Last Name">
+					</div> -->
 
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="text" id="name" name="username" placeholder="username" class="form-control"  value="admin">
-						</div>
-						<br>
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="password" id="password" name="password" placeholder="**********" class="form-control" value="admin" >
-						</div><br>
+					<div class="field">
+						<span>Username</span>
+						<input type="text" name="username" placeholder="Username">
+					</div>
 
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="text" id="name" name="username" placeholder="username" class="form-control"  value="admin">
-						</div>
-						<br>
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="password" id="password" name="password" placeholder="**********" class="form-control" value="admin" >
-						</div><br>
+					<div class="field">
+						<span>Email</span>
+						<input type="text" name="email" placeholder="email">
+					</div>
 
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="text" id="name" name="username" placeholder="username" class="form-control"  value="admin">
-						</div>
-						<br>
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="password" id="password" name="password" placeholder="**********" class="form-control" value="admin" >
-						</div><br>
+					<div class="field">
+						<span>Phone Number</span>
+						<input type="text" name="Phone" placeholder="Phone Number">
+					</div>
 
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="text" id="name" name="username" placeholder="username" class="form-control"  value="admin">
-						</div>
-						<br>
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="password" id="password" name="password" placeholder="**********" class="form-control" value="admin" >
-						</div><br>
+					<div class="field">
+						<span>Password</span>
+						<input type="text" name="password" placeholder="Password">
+					</div>
 
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="text" id="name" name="username" placeholder="username" class="form-control"  value="admin">
-						</div>
-						<br>
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="password" id="password" name="password" placeholder="**********" class="form-control" value="admin" >
-						</div><br>
+					<div class="field">
+						<span>Confirm Password</span>
+						<input type="text" name="confirmPass" placeholder="Confirm Password">
+					</div>
 
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="text" id="name" name="username" placeholder="username" class="form-control"  value="admin">
-						</div>
-						<br>
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="password" id="password" name="password" placeholder="**********" class="form-control" value="admin" >
-						</div><br>
-
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="text" id="name" name="username" placeholder="username" class="form-control"  value="admin">
-						</div>
-						<br>
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="password" id="password" name="password" placeholder="**********" class="form-control" value="admin" >
-						</div><br>
-
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="text" id="name" name="username" placeholder="username" class="form-control"  value="admin">
-						</div>
-						<br>
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="password" id="password" name="password" placeholder="**********" class="form-control" value="admin" >
-						</div><br>
-
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="text" id="name" name="username" placeholder="username" class="form-control"  value="admin">
-						</div>
-						<br>
-						<div class="input-group">
-							<span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-							<input type="password" id="password" name="password" placeholder="**********" class="form-control" value="admin" >
-						</div><br>
-
-
-						<div class="input-group">
-							<input type='submit' name='submit' class="btn btn-info "  value="LOGIN">
-						</div><br>
+					<div>
+						<input type="submit" name="add" value="add">
+					</div>
+				</div>	
 			</div>
 		</form>
         
