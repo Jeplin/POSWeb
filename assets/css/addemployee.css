@@ -1,33 +1,39 @@
-#mainOuterDiv{
+.mainOuterDiv{
     order:1px solid black;
 }
-#headerAddEmployee{
-    border-bottom: 2px solid gray;
-    font-weight: bold;
-}
-#headerAddEmployee span{
-    padding: 5px;
-    font-size: 130%;
-}
+
 .formCss{
     /* border:1px solid black; */
     margin: 10px 0;
 }
 .formContainer{
-    padding: 15px;
+    /* padding: 15px; */
     border:1px solid #d3d3d3;
     border-radius: 5px;
 }
-.formContainer span{
-    padding: 5px;
-    font-weight: bold;
+.headerTop{
+    display: block;
     border-bottom: 2px solid #d3d3d3;
+    padding: 10px;
+    background: #f2f2f2;
+}
+/* .headerTop span{
+    
+    font-weight: bold;
+    
+} */
+.ContentTop{
+    padding: 10px;
+    
+}
+.field{
+    margin-bottom: 5px;
 }
 .field span{
     padding: 3px 0;
 }
 .field input{
-    padding: 10px;
+    padding: 5px;
     border-radius: 4px;
     
 }

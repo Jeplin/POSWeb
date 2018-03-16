@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="../../assets/css/employee.css">
 </head>
 <body>
-    <div id="mainOuterDiv">
+    <div class="mainOuterDiv">
 
-        <div id="headerEmployee">
+        <div class="headerEmployee">
             <span>Employee Records</span>
             <a href="index.php?addemployee">Add</a>
         </div>
+        
         <div id="employeeList" >
         <?php 
             include('../../connection.php');
@@ -36,7 +37,7 @@
                     //array_push($mainData_arr,$row);
                     //echo $row["fname"];
                     
-                    echo "<div class='employeeListItem'><a href='#'>".$counter.". ".  $row["fname"]."</a></div>";
+                    echo "<div class='employeeListItem'><a href='?employeedetails'>".$counter.". ".  $row["fname"]."</a></div>";
                     
                 }
                 //echo "<pre>";

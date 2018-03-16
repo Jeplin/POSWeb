@@ -80,6 +80,9 @@
 						include("../addemployee/index.php");
 						// header("location:?addemployee");
 					}
+					else if(isset($_GET['employeedetails'])){
+						include("../employeedetail/index.php");
+					}
 					else{
 						header("location:?floor");
 						include("../floor/index.php");

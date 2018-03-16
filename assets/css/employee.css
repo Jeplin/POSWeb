@@ -1,11 +1,11 @@
 
-#headerEmployee{
+.headerEmployee{
     padding: 5px;
     border-bottom: 2px solid pink;
     font-weight: bold;
     font-size: 110%;
 }
-#headerEmployee a{
+.headerEmployee a{
     float: right;
 }
 .employeeListItem{
