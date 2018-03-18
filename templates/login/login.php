@@ -1,7 +1,7 @@
 <?php
 	session_start(); // Starting Session
 
-							include('../../connection.php');
+						include('../../connection.php');
 						$connection = new createConnection(); 			//created a new object
 						$connection_ref = $connection->connectToDatabase();
 						// $connection->selectDatabase();

@@ -1,6 +1,7 @@
-.mainOuterDiv{
-    order:1px solid black;
-}
+/* .mainOuterDiv{
+    border:1px solid black;
+    
+} */
 
 .formCss{
     /* border:1px solid black; */
@@ -10,6 +11,7 @@
     /* padding: 15px; */
     border:1px solid #d3d3d3;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 .headerTop{
     display: block;
@@ -23,7 +25,7 @@
     
 } */
 .ContentTop{
-    padding: 10px;
+    padding: 10px 20px;
     
 }
 .field{
@@ -31,6 +33,7 @@
 }
 .field span{
     padding: 3px 0;
+    display: block;
 }
 .field input{
     padding: 5px;

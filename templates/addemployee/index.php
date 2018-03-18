@@ -16,7 +16,7 @@
         <div class="headerEmployee">
             <span>New Employee</span>
         </div>
-        <form action="add.php" method="POST">
+        <form action="../addemployee/add.php" method="POST">
 			<div class="formCss">
 				<div class="formContainer">
 					<div class="headerTop">
@@ -34,7 +34,6 @@
 						<div class="field">
 							<span>First Name</span>
 							<input type="text" name="firstName" placeholder="First Name">
-							<span>Last Name</span>
 							<input type="text" name="lastName" placeholder="Last Name">
 						
 						</div>
@@ -69,7 +68,8 @@
 						</div>
 
 						<div>
-							<input type="submit" name="add" value="Create Account">
+							<input type="submit" name="submitted" value="Create Account">
+							<input type="submit" name="submitted" value="Cancel">
 						</div>
 					</div>
 				</div>	

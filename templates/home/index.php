@@ -83,6 +83,12 @@
 					else if(isset($_GET['employeedetails'])){
 						include("../employeedetail/index.php");
 					}
+					else if(isset($_GET['attendance'])){
+						include("../attendance/index.php");
+					}
+					else if(isset($_GET['editattendance'])){
+						include("../editattendance/editattendance.php");
+					}
 					else{
 						header("location:?floor");
 						include("../floor/index.php");
